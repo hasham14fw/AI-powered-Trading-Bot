@@ -1,7 +1,7 @@
-add---
+---
 language: en
 license: mit
-developer: Jonus Nattapong Tapachom
+library_name: sklearn
 tags:
   - trading
   - finance
@@ -68,6 +68,7 @@ model-index:
           - type: f1
             value: 76
             name: F1-Score
+---
 ---
 
 # XAUUSD Multi-Timeframe Trading AI Model
