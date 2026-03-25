@@ -1,15 +1,15 @@
-# 🤖 AI-Powered XAUUSD Trading Bot (SMC-v2)
+# AI-Powered XAUUSD Trading Bot (SMC-v2)
 
 An advanced automated trading bot for **XAUUSD (Gold)** on MetaTrader 5 (MT5), powered by Machine Learning and **Smart Money Concepts (SMC)**.
 
 ---
 
-## 🌟 Introduction
+## Introduction
 This project is an AI-driven trading solution designed specifically for Gold (XAUUSD) traders using the Exness broker. It leverages pre-trained models to analyze market imbalances and execute trades with high precision.
 
 Unlike traditional bots that rely on static indicators, this bot integrates **Smart Money Concepts (SMC)** features like Fair Value Gaps (FVG) and Order Blocks (OB) into its machine-learning decision process to identify institutional order flow.
 
-## 🚀 Key Features
+## Key Features
 *   **AI-Model Integration**: Uses a pre-trained XGBoost/Scikit-learn model (`.pkl`) trained on historical XAUUSD data.
 *   **SMC Logic**: Built-in detection for **Fair Value Gaps (FVG)** and **Order Blocks (OB)** to align with institutional trading patterns.
 *   **MetaTrader 5 Integration**: Deep integration with MT5 via the Python API for seamless data fetching and order execution.
@@ -17,7 +17,7 @@ Unlike traditional bots that rely on static indicators, this bot integrates **Sm
 *   **Multi-Timeframe Support**: Primarily optimized for the **15M** timeframe but supports other intervals via configuration.
 *   **Probability-Based Entry**: Trades are only executed when the model reaches a high-confidence threshold (e.g., >80% for Buy).
 
-## 🛠️ Tech Stack
+## Tech Stack
 *   **Language**: Python 3.8+
 *   **Platform**: MetaTrader 5 (MT5)
 *   **ML Libraries**: Scikit-learn, XGBoost, Joblib, Pandas, NumPy
@@ -25,7 +25,7 @@ Unlike traditional bots that rely on static indicators, this bot integrates **Sm
 
 ---
 
-## 📖 Setup & Installation
+## Setup & Installation
 
 ### 1. Prerequisites
 *   Install **MetaTrader 5** on your system.
@@ -53,7 +53,7 @@ Open `config.py` and update your account details:
 
 ---
 
-## 🏃 Manual & Usage
+## Manual & Usage
 
 ### Running the Bot
 1.  Make sure your MetaTrader 5 terminal is open.
@@ -75,10 +75,10 @@ Open `config.py` and update your account details:
 
 ---
 
-## ⚠️ Risk Warning
+## Risk Warning
 **Financial markets involve significant risk.** This software is provided for **educational purposes only**. Past performance is not indicative of future results. **NEVER** trade money you cannot afford to lose. Always test on a **Demo Account** first.
 
 ---
 
-## 👨‍💻 Author
+## Author
 **Hasham** - [GitHub](https://github.com/hasham14fw)
